@@ -10,11 +10,12 @@
     df.head() #show the first 5 lines by default
     df.head(num)
 #### 3) Column selection, addition, deletion of DataFrame (dict-like)
-      Select column by label:	df[label]	/ df[label].values
+      Select column by label: df[label] / df[label].values
       Select row by label:  df.loc[label]	
-      Select row by integer location:	df.iloc[loc]	
-      Slice rows:	df[5:10]	
-      Select rows by boolean vector:	df[bool_vec]	
+      Select row by integer location: df.iloc[loc]	
+      Slice rows: df[5:10]	
+      Select rows by boolean vector: df[bool_vec]
+      
       i.e. df['three'], df.loc['b'], df.iloc[3]
            df.iloc[:, 1:3], df.iloc[[0,2], [1, 3]]
 
