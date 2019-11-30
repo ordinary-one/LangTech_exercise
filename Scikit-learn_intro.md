@@ -4,11 +4,12 @@
     Open a local file using Pandas, usually a CSV file, but could also be a delimited text file (like TSV), Excel, etc
     Open a remote file or database like a CSV or a JSONon a website through a URL or read from a SQL table/database
 
-#### 1) Read a (csv) file into DataFrame: df = pd.read_csv()
+#### 1) Read a (csv) file into DataFrame: 
+    df = pd.read_csv()
 #### 2) Show the DataFrame:
     df.head() #show the first 5 lines by default
     df.head(num)
-#### 3) Column selection, addition, deletion of DataFrame(dict-like)
+#### 3) Column selection, addition, deletion of DataFrame (dict-like)
       Select column by label:	df[label]	/ df[label].values
       Select row by label:  df.loc[label]	
       Select row by integer location:	df.iloc[loc]	
